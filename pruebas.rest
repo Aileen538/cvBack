@@ -1,0 +1,41 @@
+@port = 3040
+
+
+###
+GET http://localhost:3040/api/proyectos/
+###
+http://localhost:3040/api/proyectos/6635161d2873cbebb2130a2e
+
+
+###
+GET http://localhost:3040/api/proyectos/categoria/nojdejs
+
+###
+POST http://localhost:3040/api/proyectos/
+Content-Type: application/json
+
+{
+   "titulo": " Ecommerce",
+    "descripcion":"El proyecto consiste en el desarrollo de una tienda online con javaScript ",
+    "url":"https://github.com/Aileen538/pruebaTien",
+    "cliente":"Proyecto personal",
+    "url_cliente":"https://github.com/Aileen538/pruebaTien",
+    "categoria":"javaScript"
+}
+
+###
+PUT  http://localhost:3040/api/proyectos/6638caccd216fa15f9b1bfd
+Content-Type: application/json
+
+{
+    "titulo": "Proyecto API",
+    "descripcion":"El proyecto consiste en el desarrollo de una API REST para gestionar el contenido de un portafolio personal en línea. La API permitirá a los usuarios mostrar proyectos mediante peticiones ",
+    "url":"https://github.com/Aileen538",
+    "cliente":"Proyecto personal",
+    "url_cliente":"https://github.com/Aileen538",
+    "categoria":"nodejs",
+    "tecnologia":"nodejs"
+}
+###
+DELETE http://localhost:3040/api/proyectos/
+
