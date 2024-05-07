@@ -9,6 +9,10 @@ app.use(cors());
 // Configuración de rutas
 
 app.use('/api', require('./routes/api'))
+app.get('/',(req,res)=> {
+    res.send('Ruta dentro del back');
+})
+
 
 
 module.exports = app;
