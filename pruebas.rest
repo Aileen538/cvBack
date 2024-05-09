@@ -2,40 +2,41 @@
 
 
 ###
-GET http://localhost:3040/api/proyectos/
+GET https://portfoliobackfinal-1.onrender.com/api/proyectos/
 ###
-http://localhost:3040/api/proyectos/6635161d2873cbebb2130a2e
+https://portfoliobackfinal-1.onrender.com/api/proyectos/6635161d2873cbebb2130a2e
 
 
 ###
-GET http://localhost:3040/api/proyectos/categoria/nojdejs
+GET https://portfoliobackfinal-1.onrender.com/api/proyectos/categoria/angular
 
 ###
-POST http://localhost:3040/api/proyectos/
+POST https://portfoliobackfinal-1.onrender.com/api/proyectos/
 Content-Type: application/json
 
 {
-   "titulo": " Ecommerce",
-    "descripcion":"El proyecto consiste en el desarrollo de una tienda online con javaScript ",
+   "titulo": " Web Scraping",
+    "descripcion":"El proyecto fue creado para explorar y aprender sobre técnicas de web scraping utilizando Node.js. Esta aplicación utiliza diversas bibliotecas y herramientas de Node.js   " ,
     "url":"https://github.com/Aileen538/pruebaTien",
     "cliente":"Proyecto personal",
-    "url_cliente":"https://github.com/Aileen538/pruebaTien",
-    "categoria":"javaScript"
+    "url_cliente":"https://github.com/Aileen538/",
+    "categoria":"nodejs"
 }
 
 ###
-PUT  http://localhost:3040/api/proyectos/6638caccd216fa15f9b1bfd
+PUT  https://portfoliobackfinal-1.onrender.com/api/proyectos/663c856cc456aa52d0da26b4
 Content-Type: application/json
 
 {
-    "titulo": "Proyecto API",
-    "descripcion":"El proyecto consiste en el desarrollo de una API REST para gestionar el contenido de un portafolio personal en línea. La API permitirá a los usuarios mostrar proyectos mediante peticiones ",
+    "titulo": "Aplicacion Cursos Online",
+    "descripcion":"El proyecto consiste en el desarrollo de una aplicacion en Angular la cual ofrece cursos online. los alumnos pueden ver las lecciones, hacer exmanenes y obtener una nota y los profesores pueden agregar y modificar cursos ",
     "url":"https://github.com/Aileen538",
-    "cliente":"Proyecto personal",
-    "url_cliente":"https://github.com/Aileen538",
-    "categoria":"nodejs",
-    "tecnologia":"nodejs"
+    "cliente":"Proyecto final de Bootcamp",
+    "url_cliente":"https://github.com/Aileen538/Final_front",
+    "categoria":"angular",
+    "tecnologia":"angular"
 }
 ###
-DELETE http://localhost:3040/api/proyectos/
+DELETE https://portfoliobackfinal-1.onrender.com/api/proyectos/663c86c0c456aa52d0da26cf
+
 

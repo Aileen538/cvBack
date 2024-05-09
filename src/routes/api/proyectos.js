@@ -21,6 +21,7 @@ router.get('/:proyectoId', async (req, res) => {
 
 
 
+
 router.get('/categoria/:categoria', async (req, res) => {
     try {
         const proyectos = await proyecto.find({ categoria: req.params.categoria });
