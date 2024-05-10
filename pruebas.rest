@@ -2,16 +2,16 @@
 
 
 ###
-GET https://portfoliobackfinal-1.onrender.com/api/proyectos/
+GET http://localhost:3040/api/proyectos/
 ###
 https://portfoliobackfinal-1.onrender.com/api/proyectos/6635161d2873cbebb2130a2e
 
 
 ###
-GET https://portfoliobackfinal-1.onrender.com/api/proyectos/categoria/angular
+GET http://localhost:3040/api/proyectos/categoria/angular
 
 ###
-POST https://portfoliobackfinal-1.onrender.com/api/proyectos/
+POST http://localhost:3040/api/proyectos/
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
     "url":"https://github.com/Aileen538/pruebaTien",
     "cliente":"Proyecto personal",
     "url_cliente":"https://github.com/Aileen538/",
-    "categoria":"nodejs"
+    "categoria":"angular"
 }
 
 ###
